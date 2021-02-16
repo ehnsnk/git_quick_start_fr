@@ -15,18 +15,24 @@ $ git config --global user.email "dupont_jean@gmail.com"
 ```bash
 $ git config --global branch.autosetuprebase always
 ```
-- Gerer les mauvaises commit due aux incompatibilite entre GNU\Linux et Windows
+
+#### NB : Gerer les mauvaises commit due aux incompatibilite entre GNU\Linux et Windows
  (necessaire pour les developpeurs qui utilise des systemes d'exploitation differents)
 
-    - Pour Windows
+- Pour Windows
 ```bash
 $ git config global core.autocrlf true
 ```
+- Pour Unix ou Linux
+```bash
+$ git config global core.autocrlf true
+```
+		
 
-    - Pour Unix,Linux
 ```bash
 $ git config global core.autocrlf input
 ```
+#### FIN NB
 
 - Couleur pour l'apparence
 ```bash
