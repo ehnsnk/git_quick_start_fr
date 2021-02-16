@@ -1,3 +1,5 @@
+# GIT QUICKSTART TUTORIAL FR
+
 ## Configuration de base
 - Nom d'utilisateur
 ```bash
@@ -20,6 +22,7 @@ $ git config --global branch.autosetuprebase always
 ```bash
 $ git config global core.autocrlf true
 ```
+
     - Pour Unix,Linux
 ```bash
 $ git config global core.autocrlf input
@@ -191,11 +194,12 @@ Son format est : X.X.X ou text_X.X.X
     }
 	
    - Apres:
+```java
     reculer(){  
          &"Une seule instruction ";
          &"Ajout du nouvelle instruction "; <-------------------!!!!!!!!! Ajout d'une nouvelle ligne de code
     }
-
+```
 
 Meme principe pour le cas 11g(11g0): 0-9 suivi de a-z et de 0-9:
   exemple: 6k13, 3ac5
