@@ -46,6 +46,8 @@ $ svn  commit  chemin_fichier_ou_dossier [ chemin_nieme_fichier_ou_dossier ]  -m
 
 ```bash
 $ svn  diff chemin_fichier_ou_dossier -r 1589:1623 
+$ # Comparaison avec interface graphique
+$ svn diff --diff-cmd="meld"  -r 1589:1623 chemin_fichier # meld doit être installé pour que cela fonctionne
 ```
 - Change de branche
 
@@ -70,6 +72,6 @@ $ svn  merge ^/trunk
 - Ajouter  dans la versioning
 
 ```bash
-$ svn  add -a # ou
+$ svn  add . # ou
 $ svn  add chemin_fichier_ou_dossier [chemin_nieme_fichier_ou_dossier]
 ```
