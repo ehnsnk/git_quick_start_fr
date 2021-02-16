@@ -3,11 +3,10 @@
 - Faire un nouveau checkout 
 
 ```bash
-$ svn checkout http://nom.de.domaine/trunk  dossier_destistation
+$ svn checkout http://nom.de.domaine/trunk  dossier_destination
 ```
 
 - Afficher les informations
-
 ```bash
 $ svn info
 ```
