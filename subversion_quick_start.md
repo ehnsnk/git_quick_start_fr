@@ -75,3 +75,7 @@ $ svn  merge ^/trunk
 $ svn  add . # ou
 $ svn  add chemin_fichier_ou_dossier [chemin_nieme_fichier_ou_dossier]
 ```
+- Lister les fichiers commités pour un revision (log)
+```bash
+$ svn log --verbose -r 42
+```
