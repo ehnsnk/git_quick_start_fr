@@ -79,3 +79,7 @@ $ svn  add chemin_fichier_ou_dossier [chemin_nieme_fichier_ou_dossier]
 ```bash
 $ svn log --verbose -r 42
 ```
+- Revert'er un fichier à son precedent revision
+```bash
+$  svn up  -r 1411 path_fichier
+```
