@@ -81,5 +81,10 @@ $ svn log --verbose -r 42
 ```
 - Revert'er un fichier à son precedent revision
 ```bash
+$ # Bonne pratique
+$ svn update
+$ svn merge -r 150:140  path_fichier_ou_dossier # ou -r HEAD:140
+$ svn commit -m "Rolled back to r140"
+$ # Mauvaise pratique (dangereux : irreversible)
 $  svn up  -r 1411 path_fichier
 ```
